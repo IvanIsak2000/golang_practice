@@ -2,14 +2,9 @@
 
 package main
 
-import (
-	"fmt"
-	// "math"
-)
+import "fmt"
 
-const (
-	pi float32 = 3.14
-)
+const pi float32 = 3.14
 
 func get_vars() (float32, float32) {
 	var ares float32
@@ -21,8 +16,8 @@ func get_vars() (float32, float32) {
 	fmt.Scan(&height)
 
 	return ares, height
-
 }
+
 
 func vars_is_valid(ares, height float32) bool {
 
@@ -31,8 +26,8 @@ func vars_is_valid(ares, height float32) bool {
 	}
 
 	return false
-
 }
+
 
 func main() {
 
@@ -49,5 +44,4 @@ func main() {
 	} else {
 		fmt.Print("Is not valid vars!!!")
 	}
-
 }
