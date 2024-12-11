@@ -49,6 +49,7 @@ func calculation(number float64, primaryUnit int, finishUnit int) float64 {
 	return -1
 }
 
+
 func main() {
 	units := [...]string{1: "Bit", 2: "Byte", 3: "Kbyte", 4: "Mbyte", 5: "Gbyte", 6: "Tbyte"}
 	number := getNumber()

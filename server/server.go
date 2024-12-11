@@ -1,15 +1,14 @@
-package main
+package server
 
 import (
 	"fmt"
 	"time"
 	"net"
 	"os"
-
 	"github.com/fatih/color"
 )
 
-func main(){
+func server(){
 	host_port := get_host_port()
 	fmt.Printf("Listening:\nHost: %s\nPort: %s\n______________________\n",host_port[0],host_port[1] )
 	connect(host_port)

@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func makePassword(digits, letters, symbols, lenght int) string {
+func main(digits, letters, symbols, lenght int) string {
 	toMake := ""
 	res := ""
 
